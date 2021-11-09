@@ -2,4 +2,6 @@
 
 ## This classifier was trained using Naive Bayes, Logistic Regression, and BERT. 
 
-## Potential overfitting was accounted for by deleting commonly occurring terms such as "Reuters" and "21st Century Wire" from the real news corpus and fake news corpus. On this revised corpus, BERT had the highest accuracy at 99%, followed by Logistic Regression at 98% and Naive Bayes at 94%. 
+### Dataset source: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+
+### Potential overfitting was accounted for by deleting commonly occurring terms such as "Reuters" and "21st Century Wire" from the real news corpus and fake news corpus. On this revised corpus, BERT had the highest accuracy at 99%, followed by Logistic Regression at 98% and Naive Bayes at 94%. 
